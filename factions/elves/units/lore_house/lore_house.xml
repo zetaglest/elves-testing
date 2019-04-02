@@ -122,16 +122,6 @@
 		</command>
 
 		<command>
-			<type value="produce"/>
-			<name value="summon_elf" />
-			<image path="../elf/images/elf.bmp" />
-			<unit-requirements />
-			<upgrade-requirements/>
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="elf"/>
-		</command>
-
-		<command>
 			<type value="upgrade"/>
 			<name value="taming_song" />
 			<image path="../../upgrades/taming_song/images/etl.bmp" />
