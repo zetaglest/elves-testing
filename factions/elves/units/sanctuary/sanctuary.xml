@@ -30,7 +30,7 @@
 			<resource name="gold" amount="60"/>
 			<resource name="stone" amount="20"/>
 			<resource name="wood" amount="80"/>
-			<resource name="grace" amount="-16"/>
+			<resource name="grace" amount="-22"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/sanctuary.bmp"/>
