@@ -122,18 +122,6 @@
 			<produced-unit name="wise_elf"/>
 		</command>
 
-		<command>
-			<type value="upgrade"/>
-			<name value="taming_song" />
-			<image path="../../upgrades/taming_song/images/etl.bmp" />
-			<unit-requirements>
-				<unit name="corral_gryphon_nest"/>
-			</unit-requirements>
-			<upgrade-requirements/>
-			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="taming_song"/>
-		</command>
-
     <command>
 			<type value="upgrade"/>
 			<name value="mystical_forest" />
