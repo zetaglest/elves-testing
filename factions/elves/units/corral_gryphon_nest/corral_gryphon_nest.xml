@@ -2,7 +2,7 @@
 <unit>
 	<!-- *** parameters *** -->
 	<parameters>
-		<size value="6" />
+		<size value="5" />
 		<height value="2" />
 		<max-hp value="7400" regeneration="0"/>
 		<max-ep value="0" />
@@ -13,12 +13,11 @@
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
 		<cellmap value="true">
-			<row value="110111"/>
-			<row value="110111"/>
-			<row value="000011"/>
-			<row value="110000"/>
-			<row value="110011"/>
-			<row value="110011"/>
+			<row value="11011"/>
+			<row value="11011"/>
+			<row value="00001"/>
+			<row value="11000"/>
+			<row value="11001"/>
 		</cellmap>
 		<levels/>
 		<fields>

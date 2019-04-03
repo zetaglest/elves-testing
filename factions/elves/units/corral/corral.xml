@@ -4,8 +4,7 @@
 	<parameters>
 		<size value="5" />
 		<height value="2" />
-		<ai-build-size value="10"/> <!-- increase size to accomodate for
-		morphing into the larger gryphon_nest -->
+		<ai-build-size value="6"/>
 		<max-hp value="5200" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
