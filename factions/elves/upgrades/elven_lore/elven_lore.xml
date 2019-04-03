@@ -24,12 +24,12 @@
 		<unit name="sanctuary"/>
 		<unit name="forest_guardian"/>
 	</effects>
-	<max-hp value="500"/>
+	<max-hp value="0"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strength value="0"/>
 	<attack-range value="0"/>
-	<armor value="0"/>
+	<armor value="40"/>
 	<move-speed value="0"/>
 	<production-speed value="75"/>
 </upgrade>
