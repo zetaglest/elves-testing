@@ -156,18 +156,7 @@
 			<fade value="false"/>
 		</skill>
 
-		<skill>
-			<type value="produce"/>
-			<name value="summon_skill"/>
-			<ep-cost value="0"/>
-			<speed value="180"/>
-			<anim-speed value="45"/>
-			<animation path="models/wood_guard_idle.g3d"/>
-			<sound enabled="false"/>
-		</skill>
-
 	</skills>
-
 
 	<commands>
 		<command>
@@ -188,16 +177,6 @@
 			<move-skill value="move_skill"/>
 			<stop-skill value="stop_skill"/>
 			<attack-skill value="attack_skill"/>
-		</command>
-
-		<command>
-			<type value="produce"/>
-			<name value="call_upon_dryad" />
-			<image path="../dryad/images/dryad.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<produce-skill value="summon_skill"/>
-			<produced-unit name="dryad"/>
 		</command>
 
 	</commands>
