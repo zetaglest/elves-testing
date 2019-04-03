@@ -21,7 +21,9 @@
 		</fields>
 		<properties/>
 		<light enabled="false"/>
-		<unit-requirements/>
+		<unit-requirements>
+			<unit name="forge"/>
+		</unit-requirements>
 		<upgrade-requirements>
 			<upgrade name="noldor_armour_crafting"/>
 		</upgrade-requirements>
