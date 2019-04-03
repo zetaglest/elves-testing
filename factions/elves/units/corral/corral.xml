@@ -4,7 +4,8 @@
 	<parameters>
 		<size value="5" />
 		<height value="2" />
-		<ai-build-size value="6"/>
+		<ai-build-size value="10"/> <!-- increase size to accomodate for
+		morphing into the larger gryphon_nest -->
 		<max-hp value="5200" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
@@ -14,11 +15,11 @@
 		<multi-selection value="true" />
 		<uniform-selection value="true"/>
 		<cellmap value="true">
-			<row value="00000"/>
-			<row value="11101"/>
-			<row value="11100"/>
-			<row value="11101"/>
-			<row value="00000"/>
+			<row value="11011"/>
+			<row value="11011"/>
+			<row value="00001"/>
+			<row value="11000"/>
+			<row value="11001"/>
 		</cellmap>
 		<levels/>
 		<fields>
