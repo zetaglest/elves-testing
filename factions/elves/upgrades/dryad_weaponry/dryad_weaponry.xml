@@ -20,8 +20,8 @@
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strength value="20"/>
-	<attack-range value="0"/>
+	<attack-range value="4"/>
 	<armor value="15"/>
-	<move-speed value="0"/>
+	<move-speed value="30"/>
 	<production-speed value="0"/>
 </upgrade>
