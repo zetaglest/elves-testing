@@ -221,13 +221,13 @@
 			<move-skill value="move_skill"/>
 			<build-skill value="build_skill"/>
 			<buildings>
-				<building name="tree_of_life"/>
 				<building name="sanctuary"/>
 				<building name="academy"/>
 				<building name="corral"/>
 				<building name="wood_hall"/>
-				<building name="forge"/>
 				<building name="lore_house"/>
+				<building name="forge"/>
+				<building name="tree_of_life"/>
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">
@@ -313,7 +313,6 @@
 				<unit name="corral"/>
 				<unit name="corral_gryphon_nest"/>
 				<unit name="forest_guardian"/>
-				<unit name="corral_gryphon_nest"/>
 			</repaired-units>
 		</command>
 
