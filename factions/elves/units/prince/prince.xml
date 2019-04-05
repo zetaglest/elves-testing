@@ -5,9 +5,9 @@
 		<max-unit-count value="1"/>
 		<size value="1"/>
 		<height value="1"/>
-		<max-hp value="2000" regeneration="5"/>
+		<max-hp value="2000" regeneration="2"/>
 		<max-ep value="150" regeneration="1"/>
-		<armor value="20"/>
+		<armor value="5"/>
 		<armor-type value="leather"/>
 		<sight value="18"/>
 		<time value="100"/>
@@ -15,8 +15,8 @@
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="exalted" kills="24"/>
-			<level name="legendary" kills="72"/>
+			<level name="exalted" kills="7"/>
+			<level name="legendary" kills="14"/>
 		</levels>
 		<fields>
 			<field value="land"/>
