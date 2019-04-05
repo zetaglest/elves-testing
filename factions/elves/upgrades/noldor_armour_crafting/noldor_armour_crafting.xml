@@ -17,9 +17,10 @@
 		<unit name="galadrim_archer"/>
 		<unit name="grey_elf_archer"/>
 		<unit name="magol_hedir"/>
+		<unit name="silver_helm_lancer"/>
 		<unit name="reaver"/>
 	</effects>
-	<max-hp value="0"/>
+	<max-hp value="250"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strength value="0"/>
