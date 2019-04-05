@@ -13,6 +13,7 @@
 	</resource-requirements>
 	<effects>
 		<unit name="tree_of_life"/>
+		<unit name="forest_guardian"/>
 		<unit name="wood_hall"/>
 		<unit name="lore_house"/>
 		<unit name="forge"/>
