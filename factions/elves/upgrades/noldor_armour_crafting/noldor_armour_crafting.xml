@@ -19,6 +19,7 @@
 		<unit name="magol_hedir"/>
 		<unit name="silver_helm_lancer"/>
 		<unit name="reaver"/>
+		<unit name="prince"/>
 	</effects>
 	<max-hp value="250"/>
 	<max-ep value="0"/>
