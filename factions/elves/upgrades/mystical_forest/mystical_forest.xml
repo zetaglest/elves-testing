@@ -14,10 +14,9 @@
 		<resource name="wood" amount="200"/>
 	</resource-requirements>
 	<effects>
-		<unit name="dryad"/>
 		<unit name="forest_guardian"/>
 	</effects>
-	<max-hp value="150"/>
+	<max-hp value="0"/>
 	<max-ep value="0" regeneration="0"/>
 	<sight value="1"/>
 	<attack-strength value="50"/>
