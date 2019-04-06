@@ -24,12 +24,13 @@
 		</fields>
 		<properties/>
 		<light enabled="false"/>
-		<unit-requirements/>
+		<unit-requirements>
+			<unit name="forge"/>
+		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="gold" amount="250"/>
-			<resource name="stone" amount="50"/>
-			<resource name="wood" amount="40"/>
+			<resource name="gold" amount="125"/>
+			<resource name="stone" amount="120"/>
 			<resource name="grace" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
