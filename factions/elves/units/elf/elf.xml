@@ -167,16 +167,6 @@
 		</skill>
 
 		<skill>
-			<type value="morph"/>
-			<name value="morph_skill"/>
-			<ep-cost value="0"/>
-			<speed value="500"/>
-			<anim-speed value="5"/>
-			<animation path="models/worker_dying.g3d"/>
-			<sound enabled="false"/>
-		</skill>
-
-		<skill>
 			<type value="die"/>
 			<name value="die_skill"/>
 			<ep-cost value="0"/>
