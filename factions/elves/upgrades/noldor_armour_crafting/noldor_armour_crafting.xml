@@ -6,7 +6,7 @@
 	<time value="200"/>
 	<unit-requirements/>
 	<upgrade-requirements>
-		<upgrade name="elven_lore"/>
+		<upgrade name="noldor_weaponry"/>
 	</upgrade-requirements>
 	<resource-requirements>
 		<resource name="wood" amount="150"/>

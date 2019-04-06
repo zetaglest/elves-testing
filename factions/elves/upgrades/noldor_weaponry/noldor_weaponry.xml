@@ -7,6 +7,7 @@
 	<unit-requirements/>
 	<upgrade-requirements>
 		<upgrade name="elven_lore"/>
+		<upgrade name="silverthorn_arrows"/>
 	</upgrade-requirements>
 	<resource-requirements>
 		<resource name="wood" amount="150"/>

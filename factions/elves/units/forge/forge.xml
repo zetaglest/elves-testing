@@ -118,22 +118,22 @@
 
 		<command>
 			<type value="upgrade"/>
-			<name value="noldor_armour" />
-			<image path="../../upgrades/noldor_armour_crafting/images/noldor_armour.bmp" />
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="noldor_armour_crafting"/>
-		</command>
-
-		<command>
-			<type value="upgrade"/>
 			<name value="noldor_weaponry" />
 			<image path="../../upgrades/noldor_weaponry/images/noldor_weaponry.bmp" />
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="noldor_weaponry"/>
+		</command>
+
+		<command>
+			<type value="upgrade"/>
+			<name value="noldor_armour" />
+			<image path="../../upgrades/noldor_armour_crafting/images/noldor_armour.bmp" />
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="noldor_armour_crafting"/>
 		</command>
 
 	</commands>
