@@ -16,7 +16,6 @@
 		<cellmap value="false"/>
 		<levels>
 			<level name="exalted" kills="7"/>
-			<level name="legendary" kills="14"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -82,7 +81,7 @@
 			<sound enabled="false"/>
 			<attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="10"/>
+				<radius value="6"/>
 				<target value="faction"/>
 				<max-hp value="0" regeneration="2"/>
 				<max-ep value="0"/>
@@ -108,7 +107,7 @@
 			<sound enabled="false"/>
 			<attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="10"/>
+				<radius value="6"/>
 				<target value="faction"/>
 				<max-hp value="0" regeneration="2"/>
 				<max-ep value="0"/>
@@ -157,13 +156,13 @@
 				</sound>
 			</projectile>
 			<splash value="true">
-				<radius value="5"/>
+				<radius value="2"/>
 				<damage-all value="false"/>
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
 			<attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="10"/>
+				<radius value="6"/>
 				<target value="faction"/>
 				<max-hp value="0" regeneration="2"/>
 				<max-ep value="0"/>
@@ -214,7 +213,7 @@
 			<splash value="false"/>
 			<attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="10"/>
+				<radius value="6"/>
 				<target value="faction"/>
 				<max-hp value="0" regeneration="2"/>
 				<max-ep value="0"/>
