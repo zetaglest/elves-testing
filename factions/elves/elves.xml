@@ -18,9 +18,14 @@
 	</starting-units>
 	<ai-behavior>
 		<worker-units/>
-		<warrior-units/>
-		<resource-producer-units/>
-		<building-units/>
+		<resource-producer-units>
+				<unit name="sanctuary" minimum="1"/>
+		</resource-producer-units>
+		<building-units>
+			<unit name="academy" minimum="1"/>
+			<unit name="wood_hall" minimum="1"/>
+			<unit name="corral" minimum="1"/>
+		</building-units>
 		<upgrades/>
 	</ai-behavior>
 	<music value="true" path="music/elven_music.ogg"/>
