@@ -133,5 +133,15 @@
 			<produced-upgrade name="quenya"/>
 		</command>
 
+		<command>
+			<type value="upgrade"/>
+			<name value="train_and_equip_dryads"/>
+			<image path="../../upgrades/dryad_weaponry/images/silverthorn_arrows.bmp" />
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="dryad_weaponry"/>
+		</command>
+
 	</commands>
 </unit>

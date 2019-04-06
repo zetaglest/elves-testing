@@ -227,6 +227,7 @@
 				<building name="wood_hall"/>
 				<building name="lore_house"/>
 				<building name="forge"/>
+				<building name="forest_guardian"/>
 				<building name="tree_of_life"/>
 			</buildings>
 			<start-sound enabled="false"/>
@@ -236,29 +237,6 @@
 				<sound-file path="sounds/worker_work_end3.wav"/>
 			</built-sound>
 		</command>
-
-		<!--command>
-			<type value="build"/>
-			<name value="build_wisely"/>
-			<image path="images/build2.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
-			<build-skill value="build_skill"/>
-			<buildings>
-				<building name="lore_house"/>
-				<building name="forge"/>
-				<building name="tree_circle"/>
-				<building name="tree_of_life"/>
-				<building name="wood_guard"/>
-			</buildings>
-			<start-sound enabled="false"/>
-			<built-sound enabled="true">
-				<sound-file path="sounds/worker_work_end1.wav"/>
-				<sound-file path="sounds/worker_work_end2.wav"/>
-				<sound-file path="sounds/worker_work_end3.wav"/>
-			</built-sound>
-		</command-->
 
 		<command>
 			<type value="harvest"/>
@@ -314,19 +292,6 @@
 				<unit name="corral_gryphon_nest"/>
 				<unit name="forest_guardian"/>
 			</repaired-units>
-		</command>
-
-		<command>
-			<type value="morph"/>
-			<name value="gather_wisdom"/>
-			<image path="images/wise_elf.bmp"/>
-			<unit-requirements>
-				<unit name="lore_house"/>
-			</unit-requirements>
-			<upgrade-requirements/>
-			<morph-skill value="morph_skill"/>
-			<morph-unit name= "wise_elf"/>
-			<discount value="0"/>
 		</command>
 
 	</commands>

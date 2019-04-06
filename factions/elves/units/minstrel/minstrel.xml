@@ -164,19 +164,6 @@
 			</particles>
 		</skill>
 
-		<skill>
-			<type value="upgrade" />
-			<name value="upgrade_skill"/>
-			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="150" />
-			<animation path="models/minstrel_summoning.g3d" />
-			<sound enabled="false"/>
-			<particles value="true">
-				<particle-file path="../../particles/upgrade_particles.xml" />
-			</particles>
-		</skill>
-
 	</skills>
 
 	<commands>
@@ -246,7 +233,6 @@
 				<unit name="minstrel"/>
 				<unit name="gryphon"/>
 				<unit name="reaver"/>
-				<unit name="wise_elf"/>
 				<unit name="dryad"/>
 			</repaired-units>
 		</command>
@@ -259,16 +245,6 @@
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
 			<attack-skill value="attack_skill"/>
-		</command>
-
-		<command>
-			<type value="upgrade"/>
-			<name value="train_and_equip_dryads"/>
-			<image path="../../upgrades/dryad_weaponry/images/silverthorn_arrows.bmp" />
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="dryad_weaponry"/>
 		</command>
 
 	</commands>
