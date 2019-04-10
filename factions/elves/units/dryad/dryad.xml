@@ -73,7 +73,6 @@
 			<attack-type value="energy"/>
 			<attack-fields>
 				<field value="land"/>
-				<field value="air"/>
 			</attack-fields>
 			<attack-start-time value="0.57"/>
 			<projectile value="true">
