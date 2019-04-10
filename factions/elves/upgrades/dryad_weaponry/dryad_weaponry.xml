@@ -22,7 +22,7 @@
 	<max-ep value="300" regeneration="1"/>
 	<sight value="1"/>
 	<attack-strength value="30"/>
-	<attack-range value="1"/>
+	<attack-range value="3"/>
 	<armor value="15"/>
 	<move-speed value="30"/>
 	<production-speed value="0"/>
