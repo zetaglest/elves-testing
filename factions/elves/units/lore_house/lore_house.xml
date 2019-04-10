@@ -6,20 +6,20 @@
 		<height value="2" />
 		<ai-build-size value="6"/>
 		<max-hp value="4700" regeneration="0"/>
-		<max-ep value="0" />
+		<max-ep value="600" regeneration="0" start-percentage="100"/>
 		<armor value="0" />
 		<armor-type value="wood"/>
 		<sight value="15" />
 		<time value="120" />
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
-		<max-unit-count value="2"/>
+		<!-- max-unit-count value="2"/ -->
 		<cellmap value="true">
-			<row value="11011"/>
-			<row value="00011"/>
-			<row value="11000"/>
-			<row value="11011"/>
-			<row value="01010"/>
+			<row value="11111"/>
+			<row value="10001"/>
+			<row value="10001"/>
+			<row value="10001"/>
+			<row value="11111"/>
 		</cellmap>
 		<levels/>
 		<fields>
@@ -99,6 +99,16 @@
 			<fade value="false"/>
 		</skill>
 
+		<skill>
+			<type value="produce" />
+			<name value="produce_skill"/>
+			<ep-cost value="2" />
+			<speed value="275" />
+			<anim-speed value="300" />
+			<animation path="models/lore_house.g3d" />
+			<sound enabled="false" />
+		</skill>
+
 	</skills>
 
 	<!-- *** commands *** -->
@@ -132,6 +142,18 @@
 			<upgrade-requirements/>
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="wisdom"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="add_grey_elf_archer_to_bunker" />
+			<image path="../grey_elf_archer/images/ge_archer.bmp" />
+			<unit-requirements />
+			<upgrade-requirements>
+				<upgrade name="wisdom"/>
+			</upgrade-requirements>
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="grey_elf_archer"/>
 		</command>
 
 	</commands>
