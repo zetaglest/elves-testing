@@ -13,7 +13,7 @@
     	<emission-rate value="50" />
     	<energy-max value="30" />
     	<energy-var value="15" />
-
+	<teamcolorEnergy value="true" />
 	<emission-rate-fade value="40"/>
 	<vertical-spread a="1" b="0.5"/>
 	<horizontal-spread a="1" b="0"/>
