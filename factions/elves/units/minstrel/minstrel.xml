@@ -107,6 +107,9 @@
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/minstrel_summoning.ogg"/>
 			</sound>
+			<particles value="true">
+				<particle-file path="floating_musical_notes.xml" />
+			</particles>
 		</skill>
 
 		<skill>
