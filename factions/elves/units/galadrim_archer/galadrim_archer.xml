@@ -4,8 +4,8 @@
 	<parameters>
 		<size value="1"/>
 		<height value="1"/>
-		<max-hp value="875" regeneration="2"/>
-		<max-ep value="500" regeneration="1"/>
+		<max-hp value="875" regeneration="1"/>
+		<max-ep value="0" regeneration="0"/>
 		<armor value="40"/>
 		<armor-type value="metal"/>
 		<sight value="14"/>
@@ -172,7 +172,7 @@
 		<skill>
 			<type value="morph"/>
 			<name value="morph_skill"/>
-			<ep-cost value="1"/>
+			<ep-cost value="0"/>
 			<speed value="500"/>
 			<anim-speed value="16"/>
 			<animation path="models/glarcher_idle.g3d"/>
