@@ -104,7 +104,9 @@
 			<speed value="180"/>
 			<anim-speed value="45"/>
 			<animation path="models/minstrel_summoning.g3d"/>
-			<sound enabled="false"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/minstrel_summoning.ogg"/>
+			</sound>
 		</skill>
 
 		<skill>
