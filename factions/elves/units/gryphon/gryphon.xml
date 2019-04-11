@@ -147,17 +147,14 @@
 			<name value="morph_skill"/>
 			<ep-cost value="0"/>
 			<speed value="500"/>
-			<anim-speed value="50"/>
+			<anim-speed value="300"/>
 			<animation path="models/gryphon_idle.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
 	</skills>
 
-
 	<commands>
-
-
 
 		<command>
 			<type value="stop"/>
