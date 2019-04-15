@@ -2,7 +2,7 @@
 <unit>
 
 	<parameters>
-		<size value="2" />
+		<size value="3" />
 		<height value="3" />
 		<ai-build-size value="5"/>
 		<max-hp value="8000" regeneration="0"/>
@@ -14,7 +14,11 @@
 		<time value="90" />
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
-		<cellmap value="false"/>
+		<cellmap value="true">
+			<row value="111"/>
+			<row value="111"/>
+			<row value="111"/>
+		</cellmap>
 		<levels/>
 		<fields>
 			<field value="land" />
@@ -31,8 +35,8 @@
 		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="gold" amount="240"/>
-			<resource name="wood" amount="380"/>
-			<resource name="grace" amount="-8"/>
+			<resource name="wood" amount="320"/>
+			<resource name="grace" amount="2"/>
 		</resource-requirements>
 		<resources-stored>
 			<resource name="grace" amount="12"/>
@@ -84,7 +88,7 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="25"/>
+			<speed value="65"/>
 			<anim-speed value="25"/>
 			<animation path="models/wood_guard_attacking.g3d"/>
 			<sound enabled="true" start-time="0.67">
