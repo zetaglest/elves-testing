@@ -13,7 +13,7 @@
 		<time value="120" />
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
-		<!-- max-unit-count value="2"/ -->
+		<max-unit-count value="2"/>
 		<cellmap value="true">
 			<row value="11111"/>
 			<row value="10001"/>
@@ -41,7 +41,7 @@
 		<resources-stored/>
 		<image path="images/lore_house.bmp" />
 		<image-cancel path="../tree_of_life/images/stop.bmp"/>
-		<meeting-point value="true" image-path="../tree_of_life/images/mp.bmp"/>
+		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
 			<sound path="../tree_of_life/sounds/magic_click.wav" />
 		</selection-sounds>
@@ -99,16 +99,6 @@
 			<fade value="false"/>
 		</skill>
 
-		<skill>
-			<type value="produce" />
-			<name value="produce_skill"/>
-			<ep-cost value="2" />
-			<speed value="275" />
-			<anim-speed value="300" />
-			<animation path="models/lore_house.g3d" />
-			<sound enabled="false" />
-		</skill>
-
 	</skills>
 
 	<!-- *** commands *** -->
@@ -142,18 +132,6 @@
 			<upgrade-requirements/>
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="wisdom"/>
-		</command>
-
-		<command>
-			<type value="produce"/>
-			<name value="add_grey_elf_archer_to_bunker" />
-			<image path="../grey_elf_archer/images/ge_archer.bmp" />
-			<unit-requirements />
-			<upgrade-requirements>
-				<upgrade name="wisdom"/>
-			</upgrade-requirements>
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="grey_elf_archer"/>
 		</command>
 
 	</commands>
