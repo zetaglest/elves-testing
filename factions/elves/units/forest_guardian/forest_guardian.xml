@@ -19,7 +19,9 @@
 			<row value="111"/>
 			<row value="111"/>
 		</cellmap>
-		<levels/>
+		<levels>
+			<level name="revered" kills="6"/>
+		</levels>
 		<fields>
 			<field value="land" />
 		</fields>
