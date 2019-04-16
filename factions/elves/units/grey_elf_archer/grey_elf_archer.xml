@@ -82,7 +82,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="275"/>
+			<speed value="240"/>
 			<anim-speed value="125"/>
 			<animation path="models/ge_archer_walking.g3d"/>
 			<sound enabled="false"/>
