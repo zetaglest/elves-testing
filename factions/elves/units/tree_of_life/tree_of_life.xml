@@ -62,9 +62,7 @@
 			<anim-speed value="40" />
 			<animation path="models/tree_of_life.g3d"/>
 			<sound enabled="false" />
-			<particles value="true">
-				<particle-file path="glow_particles.xml"/>
-			</particles>
+			<particles value="false"/>
 		</skill>
 
 		<skill>
@@ -86,9 +84,7 @@
 			<anim-speed value="40" />
 			<animation path="models/tree_of_life.g3d"/>/>
 			<sound enabled="false" />
-			<particles value="true">
-				<particle-file path="glow_particles.xml"/>
-			</particles>
+			<particles value="true"/>
 		</skill>
 
 		<skill>
