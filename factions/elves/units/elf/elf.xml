@@ -249,7 +249,7 @@
 		<command>
 			<type value="harvest"/>
 			<name value="concentrate_wood_essense"/>
-			<image path="images/mine.bmp"/>
+			<image path="images/harvest_wood.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
