@@ -242,7 +242,7 @@
 				<resource name="gold"/>
 				<resource name="stone"/>
 			</harvested-resources>
-			<max-load value="35"/>
+			<max-load value="25"/>
 			<hits-per-unit value="2"/>
 		</command>
 
