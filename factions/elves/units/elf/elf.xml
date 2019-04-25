@@ -151,6 +151,9 @@
 				<sound-file path="sounds/worker_mining3.wav"/>
 				<sound-file path="sounds/worker_mining4.wav"/>
 			</sound>
+			<particles value="true">
+				<particle-file path="mining_particles.xml"/>
+			</particles>
 		</skill>
 
 
