@@ -40,7 +40,7 @@
 			<sound path="sounds/eagle_select2.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/eagle_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/eagle_ack1.wav"/>
 			<sound path="sounds/eagle_ack2.wav"/>
 		</command-sounds>
 
