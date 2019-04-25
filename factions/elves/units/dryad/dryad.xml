@@ -8,7 +8,7 @@
 		<max-hp value="485" regeneration="1"/>
 		<max-ep value="300" regeneration="7"/>
 		<armor value="5"/>
-		<armor-type value="wood"/>
+		<armor-type value="organic"/>
 		<sight value="13"/>
 		<time value="50"/>
 		<multi-selection value="true"/>
