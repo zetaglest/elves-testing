@@ -21,7 +21,7 @@
 		<unit name="reaver"/>
 		<unit name="prince"/>
 	</effects>
-	<max-hp value="250"/>
+	<max-hp value="250" start-percentage="100"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strength value="0"/>

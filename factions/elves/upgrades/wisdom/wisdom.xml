@@ -15,7 +15,7 @@
 	<effects>
 		<unit name="elf"/>
 	</effects>
-	<max-hp value="100"/>
+	<max-hp value="100" start-percentage="100"/>
 	<max-ep value="0"/>
 	<sight value="1"/>
 	<attack-strength value="0"/>

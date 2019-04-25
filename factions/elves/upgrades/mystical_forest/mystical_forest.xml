@@ -14,14 +14,15 @@
 		<resource name="wood" amount="200"/>
 	</resource-requirements>
 	<effects>
-		<unit name="forest_guardian"/>
+		<unit name="dryad"/>
+		<unit name="minstrel"/>
 	</effects>
-	<max-hp value="0"/>
+	<max-hp value="100" start-percentage="100"/>
 	<max-ep value="0" regeneration="0"/>
 	<sight value="1"/>
 	<attack-strength value="50"/>
-	<attack-range value="2"/>
-	<armor value="10"/>
-	<move-speed value="0"/>
+	<attack-range value="1"/>
+	<armor value="5"/>
+	<move-speed value="20"/>
 	<production-speed value="0"/>
 </upgrade>

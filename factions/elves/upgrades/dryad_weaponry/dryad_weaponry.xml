@@ -18,7 +18,7 @@
 	<effects>
 		<unit name="dryad"/>
 	</effects>
-	<max-hp value="250"/>
+	<max-hp value="250" start-percentage="100"/>
 	<max-ep value="300" regeneration="1"/>
 	<sight value="1"/>
 	<attack-strength value="30"/>
