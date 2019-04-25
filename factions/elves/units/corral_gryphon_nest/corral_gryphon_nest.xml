@@ -171,7 +171,7 @@
 		<command>
 			<type value="upgrade"/>
 			<name value="taming_song" />
-			<image path="../../upgrades/taming_song/images/etl.bmp" />
+			<image path="images/taming_song.bmp" />
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<upgrade-skill value="upgrade_skill"/>
