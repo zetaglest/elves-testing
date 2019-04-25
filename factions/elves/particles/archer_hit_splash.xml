@@ -13,7 +13,8 @@
     	<emission-rate value="30" />
     	<energy-max value="30" />
     	<energy-var value="2" />
+	<teamcolorEnergy value="false" />
 	<emission-rate-fade value="100"/>
-	<vertical-spread a=".5" b="0.25"/>
-	<horizontal-spread a=".5" b="0"/>
+	<vertical-spread a="1" b="0.5"/>
+	<horizontal-spread a="1" b="0"/>
 </splash-particle-system>
