@@ -184,6 +184,16 @@
 			<fade value="false"/>
 		</skill>
 
+		<skill>
+			<type value="morph"/>
+			<name value="morph_skill"/>
+			<ep-cost value="0"/>
+			<speed value="100"/>
+			<anim-speed value="16"/>
+			<animation path="models/worker_harvesting_wood.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
 	</skills>
 
 	<commands>
@@ -285,6 +295,19 @@
 				<unit name="corral_gryphon_nest"/>
 				<unit name="forest_guardian"/>
 			</repaired-units>
+		</command>
+
+		<command>
+			<type value="morph"/>
+			<name value="promote_to_grey_elf_archer"/>
+			<image path="../grey_elf_archer/images/ge_archer.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements>
+				<upgrade name="wisdom"/>
+			</upgrade-requirements>
+			<morph-skill value="morph_skill"/>
+			<morph-unit name="grey_elf_archer"/>
+			<discount value="20"/>
 		</command>
 
 	</commands>
