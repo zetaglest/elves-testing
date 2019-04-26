@@ -30,7 +30,7 @@
 		</properties>
 		<light enabled="false"/>
 		<unit-requirements>
-			<unit name="corral"/>
+			<unit name="wood_hall"/>
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
