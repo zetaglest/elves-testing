@@ -31,6 +31,7 @@
 		<light enabled="false"/>
 		<unit-requirements>
 			<unit name="wood_hall"/>
+			<unit name="minstrel"/>
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
@@ -65,10 +66,10 @@
 				<allow-multiple-boosts value="false" />
 				<radius value="10"/>
 				<target value="foe"/>
-				<max-hp value="-50" regeneration="0"/>
-				<max-ep value="0"/>
-				<sight value="0"/>
-				<attack-strength value="-25" value-percent-multiplier="true"/>
+				<max-hp value="-100" regeneration="0"/>
+				<max-ep value="-125"/>
+				<sight value="3"/>
+				<attack-strength value="-40" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
 				<move-speed value="-40"/>
