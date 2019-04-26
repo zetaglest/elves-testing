@@ -98,7 +98,7 @@
 				</particles>
 			</attack-boost>
 			<particles value="true">
-				<particle-file path="../../particles/glow_particles.xml"/>
+				<particle-file path="prince_glow_particles.xml"/>
 			</particles>
 		</skill>
 
@@ -127,7 +127,7 @@
 				</particles>
 			</attack-boost>
 			<particles value="true">
-				<particle-file path="../../particles/glow_particles.xml"/>
+				<particle-file path="prince_glow_particles.xml"/>
 			</particles>
 		</skill>
 
@@ -185,7 +185,7 @@
 				</particles>
 			</attack-boost>
 			<particles value="true">
-				<particle-file path="../../particles/glow_particles.xml"/>
+				<particle-file path="prince_glow_particles.xml"/>
 			</particles>
 		</skill>
 
@@ -239,7 +239,7 @@
 				</particles>
 			</attack-boost>
 			<particles value="true">
-				<particle-file path="../../particles/glow_particles.xml"/>
+				<particle-file path="prince_glow_particles.xml"/>
 			</particles>
 		</skill>
 
@@ -258,7 +258,7 @@
 			</sound>
 			<fade value="false"/>
 			<particles value="true">
-				<particle-file path="../../particles/glow_particles.xml"/>
+				<particle-file path="prince_glow_particles.xml"/>
 			</particles>
 		</skill>
 
