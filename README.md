@@ -6,7 +6,7 @@ For [MegaGlest](https://megaglest.org)
 
 Mod Name: Elves
 Mod Type: Faction
-Mod Version: 2.0 Alpha (A7)
+Mod Version: 2.0 Alpha (A8)
 
 ## Download
 
@@ -26,7 +26,7 @@ Credits: gAMeboy [Mod Creator/Development 0-0.8]
 	 MirceaKitsune [Development 0.8-0.96]
 	 Battle For Wesnoth [Music]
 
-	 With modifications by the ZetaGlest Team
+	 With modifications by Andy Alt and the ZetaGlest Team
 
 ------------------
 
