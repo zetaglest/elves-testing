@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/quenya.bmp"/>
 	<image-cancel path="../../units/tree_of_life/images/stop.bmp"/>
-	<time value="150"/>
+	<time value="250"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
