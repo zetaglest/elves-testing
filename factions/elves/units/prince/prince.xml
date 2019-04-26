@@ -95,6 +95,9 @@
 					<affected-particle-file path="boost_particles.xml"/>
 				</particles>
 			</attack-boost>
+			<particles value="true">
+				<particle-file path="../../particles/glow_particles.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
@@ -121,6 +124,9 @@
 					<affected-particle-file path="boost_particles.xml"/>
 				</particles>
 			</attack-boost>
+			<particles value="true">
+				<particle-file path="../../particles/glow_particles.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
@@ -176,6 +182,9 @@
 					<affected-particle-file path="boost_particles.xml"/>
 				</particles>
 			</attack-boost>
+			<particles value="true">
+				<particle-file path="../../particles/glow_particles.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
@@ -227,6 +236,9 @@
 					<affected-particle-file path="boost_particles.xml"/>
 				</particles>
 			</attack-boost>
+			<particles value="true">
+				<particle-file path="../../particles/glow_particles.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
@@ -243,6 +255,9 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archer_die4.wav"/>
 			</sound>
 			<fade value="false"/>
+			<particles value="true">
+				<particle-file path="../../particles/glow_particles.xml"/>
+			</particles>
 		</skill>
 
 	</skills>
