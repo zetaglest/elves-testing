@@ -54,6 +54,7 @@
 					<unit-type name="dryad" />
 					<unit-type name="elf" />
 					<unit-type name="grey_elf_archer" />
+					<unit-type name="galadrim_archer" />
 					<unit-type name="magol_hedir" />
 				</target>
 				<max-hp value="0" regeneration="5"/>
@@ -83,6 +84,7 @@
 					<unit-type name="dryad" />
 					<unit-type name="elf" />
 					<unit-type name="grey_elf_archer" />
+					<unit-type name="galadrim_archer" />
 					<unit-type name="magol_hedir" />
 				</target>
 				<max-hp value="0" regeneration="5"/>
@@ -121,7 +123,7 @@
 			<animation path="models/minstrel_attacking.g3d"/>
 			<sound enabled="false"/>
 			<attack-strength value="130"/>
-			<attack-var value="50"/>
+			<attack-var value="70"/>
 			<attack-range value="11"/>
 			<attack-type value="energy"/>
 			<attack-fields>
@@ -247,7 +249,9 @@
 			<name value="hold_position"/>
 			<image path="../tree_of_life/images/hold.bmp"/>
 			<unit-requirements/>
-			<upgrade-requirements/>
+			<upgrade-requirements>
+				<upgrade name="elven_lore"/>
+			</upgrade-requirements>
 			<stop-skill value="stop_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
