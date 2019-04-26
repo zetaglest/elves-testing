@@ -3,10 +3,8 @@
 <upgrade>
 	<image path="images/silverthorn_arrows.bmp"/>
 	<image-cancel path="../../units/tree_of_life/images/stop.bmp"/>
-	<time value="350"/>
-	<unit-requirements>
-		<unit name="forge"/>
-	</unit-requirements>
+	<time value="300"/>
+	<unit-requirements/>
 	<upgrade-requirements>
 		<upgrade name="mystical_forest"/>
 	</upgrade-requirements>
@@ -18,12 +16,12 @@
 	<effects>
 		<unit name="dryad"/>
 	</effects>
-	<max-hp value="250" start-percentage="100"/>
-	<max-ep value="300" regeneration="1"/>
+	<max-hp value="0"/>
+	<max-ep value="250" regeneration="3"/>
 	<sight value="1"/>
 	<attack-strength value="30"/>
 	<attack-range value="3"/>
-	<armor value="15"/>
+	<armor value="0"/>
 	<move-speed value="30"/>
 	<production-speed value="0"/>
 </upgrade>
