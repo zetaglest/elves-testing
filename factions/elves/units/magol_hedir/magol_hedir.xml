@@ -196,18 +196,5 @@
 			<attack-skill value="attack_skill"/>
 		</command>
 
-		<!-- *** command 2 *** -->
-
-                <command>
-			<type value="attack_stopped"/>
-			<name value="hold_position"/>
-			<image path="../tree_of_life/images/hold.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<stop-skill value="stop_skill"/>
-			<attack-skill value="attack_skill"/>
-		</command>
-
-
 	</commands>
 </unit>
