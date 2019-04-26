@@ -26,7 +26,9 @@
 		<unit-requirements>
 			<unit name="lore_house"/>
 		</unit-requirements>
-		<upgrade-requirements/>
+		<upgrade-requirements>
+			<upgrade name="wisdom"/>
+		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="gold" amount="400"/>
 			<resource name="wood" amount="500"/>
