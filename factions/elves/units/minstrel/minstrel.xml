@@ -241,6 +241,7 @@
 				<unit name="gryphon"/>
 				<unit name="reaver"/>
 				<unit name="dryad"/>
+				<unit name="prince"/>
 			</repaired-units>
 		</command>
 
