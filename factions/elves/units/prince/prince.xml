@@ -107,7 +107,7 @@
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="275"/>
-			<anim-speed value="36"/>
+			<anim-speed value="60"/>
 			<animation path="models/prince_running.g3d"/>
 			<sound enabled="false"/>
 			<attack-boost>
