@@ -9,7 +9,7 @@
 		<max-ep value="0" regeneration="0" start-percentage="100"/>
 		<armor value="0" />
 		<armor-type value="wood"/>
-		<sight value="15" />
+		<sight value="18" />
 		<time value="120" />
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
@@ -64,7 +64,7 @@
 			<sound enabled="false" />
 			<attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="15"/>
+				<radius value="17"/>
 				<target value="foe"/>
 				<max-hp value="-100" regeneration="0"/>
 				<max-ep value="-125"/>
