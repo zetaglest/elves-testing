@@ -240,6 +240,7 @@
 				<unit name="minstrel"/>
 				<unit name="gryphon"/>
 				<unit name="reaver"/>
+				<unit name="silver_helm_lancer"/>
 				<unit name="dryad"/>
 				<unit name="prince"/>
 			</repaired-units>
