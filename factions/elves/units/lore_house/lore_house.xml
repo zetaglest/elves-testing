@@ -64,12 +64,12 @@
 			<sound enabled="false" />
 			<attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="10"/>
+				<radius value="15"/>
 				<target value="foe"/>
 				<max-hp value="-100" regeneration="0"/>
 				<max-ep value="-125"/>
 				<sight value="3"/>
-				<attack-strength value="-40" value-percent-multiplier="true"/>
+				<attack-strength value="-25" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
 				<move-speed value="-40"/>
