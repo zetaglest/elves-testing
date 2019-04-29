@@ -19,11 +19,11 @@
 	<ai-behavior>
 		<worker-units/>
 		<resource-producer-units/>
-		<building-units/>
-		<!-- building-units>
-			<unit name="academy" minimum="1"/>
+		<!-- building-units/ -->
+		<building-units>
+			<unit name="academy" minimum="2"/>
 			<unit name="wood_hall" minimum="1"/>
-		</building-units -->
+		</building-units>
 		<upgrades/>
 	</ai-behavior>
 	<music value="true" path="music/elven_music.ogg"/>
