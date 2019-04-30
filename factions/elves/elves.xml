@@ -5,7 +5,7 @@
 		<resource name="gold" amount="500"/>
 		<resource name="stone" amount="500"/>
 		<resource name="wood" amount="500"/>
-		<resource name="grace" amount="0"/>
+		<resource name="grace" amount="16"/>
 	</starting-resources>
 	<starting-units>
 		<unit name="tree_of_life" amount="1"/>
@@ -14,7 +14,7 @@
 		<unit name="minstrel" amount="1"/>
 		<unit name="grey_elf_archer" amount="1"/>
 		<unit name="magol_hedir" amount="2"/>
-		<unit name="sanctuary" amount="1"/>
+		<unit name="sanctuary" amount="0"/>
 	</starting-units>
 	<ai-behavior>
 		<worker-units/>
