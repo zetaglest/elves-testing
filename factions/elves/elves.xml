@@ -5,7 +5,7 @@
 		<resource name="gold" amount="500"/>
 		<resource name="stone" amount="500"/>
 		<resource name="wood" amount="500"/>
-		<resource name="grace" amount="16"/>
+		<resource name="grace" amount="42"/>
 	</starting-resources>
 	<starting-units>
 		<unit name="tree_of_life" amount="1"/>
@@ -17,9 +17,15 @@
 		<unit name="sanctuary" amount="0"/>
 	</starting-units>
 	<ai-behavior>
-		<worker-units/>
+		<worker-units>
+			<unit name="elf" minimum="10"/>
+		</worker-units>
+		<warrior-units>
+			<unit name="grey_elf_archer" minimum="9"/>
+			<unit name="magol_hedir" minimum="4"/>
+			<unit name="elf" minimum="12"/>
+		</warrior-units>
 		<resource-producer-units/>
-		<!-- building-units/ -->
 		<building-units>
 			<unit name="academy" minimum="2"/>
 			<unit name="wood_hall" minimum="1"/>
