@@ -6,10 +6,10 @@
 		<height value="1"/>
 		<max-hp value="875" regeneration="1"/>
 		<max-ep value="0" regeneration="0"/>
-		<armor value="40"/>
+		<armor value="5"/>
 		<armor-type value="leather"/>
 		<sight value="14"/>
-		<time value="100"/>
+		<time value="80"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
