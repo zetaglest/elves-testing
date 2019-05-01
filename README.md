@@ -6,16 +6,11 @@ For [MegaGlest](https://megaglest.org)
 
 Mod Name: Elves
 Mod Type: Faction
-Mod Version: 2.0 Alpha (A8)
+Mod Version: 2.0 Alpha (A9)
 
 ## Download
 
 https://github.com/zetaglest/elves-testing/releases
-
-# Dependences
-
-The east_vs_mega mod (available from the MegaGlest mod center)
-
 
 ## Credits
 
