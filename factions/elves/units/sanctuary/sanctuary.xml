@@ -10,7 +10,7 @@
 		<armor value="0" />
 		<armor-type value="wood"/>
 		<sight value="5" />
-		<time value="150" />
+		<time value="125" />
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
 		<cellmap value="false"/>
@@ -30,7 +30,7 @@
 			<resource name="gold" amount="60"/>
 			<resource name="stone" amount="20"/>
 			<resource name="wood" amount="80"/>
-			<resource name="grace" amount="-40"/>
+			<resource name="grace" amount="-42"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/sanctuary.bmp"/>
