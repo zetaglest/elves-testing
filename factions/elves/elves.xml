@@ -21,8 +21,8 @@
 			<unit name="elf" minimum="10"/>
 		</worker-units>
 		<warrior-units>
-			<unit name="grey_elf_archer" minimum="9"/>
-			<unit name="magol_hedir" minimum="4"/>
+			<unit name="magol_hedir" minimum="9"/>
+			<unit name="grey_elf_archer" minimum="4"/>
 			<unit name="elf" minimum="12"/>
 		</warrior-units>
 		<resource-producer-units/>
