@@ -5,7 +5,7 @@
 		<max-unit-count value="1"/>
 		<size value="1"/>
 		<height value="1"/>
-		<max-hp value="2000" regeneration="2"/>
+		<max-hp value="1600" regeneration="2"/>
 		<max-ep value="150" regeneration="1"/>
 		<armor value="5"/>
 		<armor-type value="leather"/>
@@ -19,7 +19,6 @@
 		</levels>
 		<fields>
 			<field value="land"/>
-			<field value="air"/>
 		</fields>
 		<properties/>
 		<light enabled="true" red="0.7" green="0.8" blue="0.8"/>
@@ -203,10 +202,10 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack4.wav"/>
 			</sound>
 			<attack-strength value="2000"/>
-			<attack-var value="100"/>
-			<attack-range value="14"/>
+			<attack-var value="500"/>
+			<attack-range value="9"/>
 			<attack-type value="piercing"/>
-			<attack-start-time value="0.29"/>
+			<attack-start-time value="0.49"/>
 			<attack-fields>
 				<field value="land"/>
 				<field value="air"/>
