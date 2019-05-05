@@ -12,6 +12,10 @@ Mod Version: 2.0 Alpha (A9)
 
 https://github.com/zetaglest/elves-testing/releases
 
+## Video
+
+https://www.twitch.tv/videos/420597734
+
 ## Credits
 
 ------------------
