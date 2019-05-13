@@ -120,19 +120,6 @@
 			<projectile value="false"/>
 		</skill>
 
-		<skill>
-			<type value="upgrade" />
-			<name value="upgrade_skill"/>
-			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="300" />
-			<animation path="../corral/models/stable_gryphon_nest.g3d" />
-			<sound enabled="false" />
-			<particles value="true">
-				<particle-file path="../../particles/upgrade_particles.xml" />
-			</particles>
-		</skill>
-
 	</skills>
 
 	<!-- *** commands *** -->
@@ -166,16 +153,6 @@
 			<upgrade-requirements/>
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="gryphon"/>
-		</command>
-
-		<command>
-			<type value="upgrade"/>
-			<name value="taming_song" />
-			<image path="images/taming_song.bmp" />
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="taming_song"/>
 		</command>
 
 	</commands>
