@@ -41,7 +41,7 @@
 		<image-cancel path="../tree_of_life/images/stop.bmp"/>
 		<meeting-point value="true" image-path="images/mp.bmp"/>
 		<selection-sounds enabled="true">
-			<sound path="../tree_of_life/sounds/magic_click.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/74833__jobro__sword-pulled-3.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
 			<sound path="../tree_of_life/sounds/magic_click.wav"/>
