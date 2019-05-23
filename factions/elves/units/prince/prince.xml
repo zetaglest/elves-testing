@@ -98,6 +98,15 @@
 			</attack-boost>
 			<particles value="true">
 				<particle-file path="prince_glow_particles.xml"/>
+				<particle-file path="../../particles/particle_range.xml">
+					<shape value="conical">
+						<angle value="90"/>
+					</shape>
+					<radius value="6"/>
+					<min-radius value="5.9"/>
+					<direction x="0" y="0.1" z="0"/>
+					<offset x="0" y="0" z="0"/>
+				</particle-file>
 			</particles>
 		</skill>
 
@@ -127,6 +136,15 @@
 			</attack-boost>
 			<particles value="true">
 				<particle-file path="prince_glow_particles.xml"/>
+				<particle-file path="../../particles/particle_range.xml">
+					<shape value="conical">
+						<angle value="90"/>
+					</shape>
+					<radius value="6"/>
+					<min-radius value="5.9"/>
+					<direction x="0" y="0.1" z="0"/>
+					<offset x="0" y="0" z="0"/>
+				</particle-file>
 			</particles>
 		</skill>
 
@@ -185,6 +203,15 @@
 			</attack-boost>
 			<particles value="true">
 				<particle-file path="prince_glow_particles.xml"/>
+				<particle-file path="../../particles/particle_range.xml">
+					<shape value="conical">
+						<angle value="90"/>
+					</shape>
+					<radius value="6"/>
+					<min-radius value="5.9"/>
+					<direction x="0" y="0.1" z="0"/>
+					<offset x="0" y="0" z="0"/>
+				</particle-file>
 			</particles>
 		</skill>
 
@@ -239,6 +266,15 @@
 			</attack-boost>
 			<particles value="true">
 				<particle-file path="prince_glow_particles.xml"/>
+				<particle-file path="../../particles/particle_range.xml">
+					<shape value="conical">
+						<angle value="90"/>
+					</shape>
+					<radius value="6"/>
+					<min-radius value="5.9"/>
+					<direction x="0" y="0.1" z="0"/>
+					<offset x="0" y="0" z="0"/>
+				</particle-file>
 			</particles>
 		</skill>
 
