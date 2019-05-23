@@ -231,6 +231,31 @@
 		</skill>
 -->
 
+<!--
+this attack skill never used, but prevents minstrels from fleeing
+when enemy units are attacking or nearby. Thanks to Jammy for telling
+me about the fix
+-->
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>
+			<ep-cost value="1000"/>
+			<speed value="0"/>
+			<anim-speed value="0"/>
+			<animation path="models/minstrel_idle.g3d"/>
+			<sound enabled="false"/>
+			<attack-strength value="0"/>
+			<attack-var value="0"/>
+			<attack-range value="0"/>
+			<attack-type value="energy"/>
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<splash value="false"/>
+			<attack-start-time value="0.0"/>
+			<projectile value="false"/>
+		</skill>
+
 	</skills>
 
 	<commands>
