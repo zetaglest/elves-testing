@@ -44,7 +44,7 @@
 		<image-cancel path="images/stop.bmp"/>
 		<meeting-point value="true" image-path="images/mp.bmp"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/magic_click.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/242605__gabrielaraujo__opening-pop-up.ogg"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
 			<sound path="sounds/magic_click.wav"/>
