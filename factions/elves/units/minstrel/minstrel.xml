@@ -43,7 +43,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="150"/>
+			<speed value="170"/>
 			<anim-speed value="24"/>
 			<animation path="models/minstrel_walking.g3d"/>
 			<sound enabled="false"/>
@@ -134,39 +134,6 @@
 			<particles value="true">
 				<particle-file path="floating_musical_notes.xml" />
 			</particles>
-		</skill>
-
-		<skill>
-			<type value="attack"/>
-			<name value="attack_skill"/>
-			<ep-cost value="50"/>
-			<speed value="50"/>
-			<anim-speed value="50"/>
-			<animation path="models/minstrel_attacking.g3d"/>
-			<sound enabled="false"/>
-			<attack-strength value="130"/>
-			<attack-var value="70"/>
-			<attack-range value="11"/>
-			<attack-type value="energy"/>
-			<attack-fields>
-				<field value="land"/>
-				<field value="air"/>
-			</attack-fields>
-			<attack-start-time value="0.52"/>
-			<projectile value="true">
-				<particle value="true" path="particle_proj.xml"/>
-				<sound enabled="true">
-					<sound-file path="sounds/summoner_hit1.wav"/>
-					<sound-file path="sounds/summoner_hit2.wav"/>
-					<sound-file path="sounds/summoner_hit3.wav"/>
-					<sound-file path="sounds/summoner_hit4.wav"/>
-				</sound>
-			</projectile>
-			<splash value="true">
-				<radius value="3"/>
-				<damage-all value="false"/>
-				<particle value="true" path="particle_splash.xml"/>
-			</splash>
 		</skill>
 
 		<skill>
@@ -287,16 +254,6 @@
 		</command>
 
 		<command>
-			<type value= "attack"/>
-			<name value="song_of_fire"/>
-			<image path="images/eattack.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
-			<attack-skill value="attack_skill"/>
-		</command>
-
-		<command>
 			<type value="produce"/>
 			<name value="call_upon_dryad" />
 			<image path="../dryad/images/dryad.bmp"/>
@@ -337,18 +294,6 @@
 				<unit name="dryad"/>
 				<unit name="prince"/>
 			</repaired-units>
-		</command>
-
-    <command>
-			<type value="attack_stopped"/>
-			<name value="hold_position"/>
-			<image path="../tree_of_life/images/hold.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements>
-				<upgrade name="elven_lore"/>
-			</upgrade-requirements>
-			<stop-skill value="stop_skill"/>
-			<attack-skill value="attack_skill"/>
 		</command>
 
 	</commands>

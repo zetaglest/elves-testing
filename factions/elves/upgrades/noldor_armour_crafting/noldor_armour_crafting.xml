@@ -16,6 +16,7 @@
 	<effects>
 		<unit name="elf"/>
 		<unit name="dryad"/>
+		<unit name="minstrel"/>
 		<unit name="galadrim_archer"/>
 		<unit name="grey_elf_archer"/>
 		<unit name="magol_hedir"/>

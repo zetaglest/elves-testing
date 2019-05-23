@@ -15,7 +15,6 @@
 	</resource-requirements>
 	<effects>
 		<unit name="dryad"/>
-		<unit name="minstrel"/>
 	</effects>
 	<max-hp value="100" start-percentage="100"/>
 	<max-ep value="0" regeneration="0"/>
