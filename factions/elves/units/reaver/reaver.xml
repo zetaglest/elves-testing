@@ -33,20 +33,7 @@
 		<image-cancel path="../tree_of_life/images/stop.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/battlemage_select1.wav"/>
-			<sound path="sounds/battlemage_select2.wav"/>
-			<sound path="sounds/battlemage_select3.wav"/>
-			<sound path="sounds/battlemage_select4.wav"/>
-			<sound path="sounds/battlemage_select5.wav"/>
-			<sound path="sounds/battlemage_select6.wav"/>
-			<sound path="sounds/battlemage_select7.wav"/>
-			<sound path="sounds/battlemage_select8.wav"/>
-			<sound path="sounds/battlemage_select9.wav"/>
-			<sound path="sounds/battlemage_select10.wav"/>
-			<sound path="sounds/battlemage_select11.wav"/>
-			<sound path="sounds/battlemage_select12.wav"/>
-			<sound path="sounds/battlemage_select13.wav"/>
-			<sound path="sounds/battlemage_select14.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/269571__shadowisp__horse-neigh-shortened_amplified.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
 			<sound path="sounds/battlemage_ack1.wav"/>
@@ -82,7 +69,10 @@
 			<speed value="580"/>
 			<anim-speed value="180"/>
 			<animation path="models/reaver_moving.g3d"/>
-			<sound enabled="false"/>
+			<sound enabled="true" start-time="0.0">
+				<sound-file path="$COMMONDATAPATH/sounds/322448__deadxcreed__horse-gallop-loop_modified.wav"/>
+			</sound>
+
 		</skill>
 
 		<skill>
