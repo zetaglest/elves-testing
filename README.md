@@ -6,7 +6,7 @@ For [MegaGlest](https://megaglest.org)
 
 Mod Name: Elves
 Mod Type: Faction
-Mod Version: 2.0 Alpha (A10)
+Mod Version: 2.0 Alpha (A11)
 
 ## Download
 
