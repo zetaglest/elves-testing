@@ -78,6 +78,17 @@
 					<affected-particle-file path="../../particles/poison_particles.xml"/>
 				</particles>
 			</attack-boost>
+			<particles value="true">
+				<particle-file path="../../particles/particle_range.xml">
+					<shape value="conical">
+						<angle value="90"/>
+					</shape>
+					<radius value="17"/>
+					<min-radius value="16.9"/>
+					<direction x="0" y="0.1" z="0"/>
+					<offset x="0" y="0" z="0"/>
+				</particle-file>
+			</particles>
 		</skill>
 
 		<skill>
