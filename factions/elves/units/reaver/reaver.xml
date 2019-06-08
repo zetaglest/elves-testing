@@ -69,10 +69,7 @@
 			<speed value="580"/>
 			<anim-speed value="180"/>
 			<animation path="models/reaver_moving.g3d"/>
-			<sound enabled="true" start-time="0.0">
-				<sound-file path="$COMMONDATAPATH/sounds/322448__deadxcreed__horse-gallop-loop_modified.wav"/>
-			</sound>
-
+			<sound enabled="false"/>
 		</skill>
 
 		<skill>

@@ -76,9 +76,7 @@
 			<speed value="435"/>
 			<anim-speed value="120"/>
 			<animation path="models/rider_galloping.g3d"/>
-			<sound enabled="true" start-time="0.0">
-				<sound-file path="$COMMONDATAPATH/sounds/322448__deadxcreed__horse-gallop-loop_modified.wav"/>
-			</sound>
+			<sound enabled="false"/>
 		</skill>
 
 		<skill>
