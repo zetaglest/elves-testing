@@ -144,32 +144,6 @@
 			<fade value="false"/>
 		</skill>
 
-		<skill>
-			<type value="attack"/>
-			<name value="sword_skill"/>
-			<ep-cost value="0"/>
-			<speed value="100"/>
-			<anim-speed value="100"/>
-			<animation path="models/ge_archer_melee.g3d"/>
-			<sound enabled="true" start-time="0.47">
-				<sound-file path="$COMMONDATAPATH/sounds/armored_swordman_attack1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/armored_swordman_attack2.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/armored_swordman_attack3.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/armored_swordman_attack4.wav"/>
-			</sound>
-			<attack-strength value="80"/>
-			<attack-var value="30"/>
-			<attack-range value="1"/>
-			<attack-type value="slashing"/>
-			<attack-fields>
-				<field value="land"/>
-			</attack-fields>
-			<attack-start-time value="0"/>
-			<projectile value="false"/>
-			<splash value="false"/>
-		</skill>
-
-
 	</skills>
 
 	<!-- *** commands *** -->
@@ -202,16 +176,6 @@
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
-		</command>
-
-		<command>
-			<type value="attack"/>
-			<name value="melee"/>
-			<image path="../magol_hedir/images/melee.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
-			<attack-skill value="sword_skill"/>
 		</command>
 
 		<command>
